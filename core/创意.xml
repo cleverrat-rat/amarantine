@@ -1,0 +1,8 @@
+<aiml version="1.0">
+<category>
+<pattern>LOAD CY</pattern>
+<template>
+<learn>创意.aiml</learn>
+</template>
+</category>
+</aiml>
