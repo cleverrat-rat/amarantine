@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0" encoding="UTF-8">
+    <category>
+         <pattern>*蜜雪冰城*</pattern>
+      <template>
+		<random>
+		<li>你爱我，我爱你，蜜雪冰城甜蜜蜜</li>
+		<li>I LOVE YOU YOU LOVE ME MIXUE ICECREAM AND TEA</li>
+		<li>你爱我我爱你<system>start https://www.bilibili.com/video/BV1pb4y1Z7B6/</system></li>
+		</random>
+	  </template>
+   </category>
+       <category>
+         <pattern>*蜜雪冰城</pattern>
+      <template>
+		<random>
+		<li>你爱我，我爱你，蜜雪冰城甜蜜蜜</li>
+		<li>I LOVE YOU YOU LOVE ME MIXUE ICECREAM AND TEA</li>
+		<li>你爱我我爱你<system>start https://www.bilibili.com/video/BV1pb4y1Z7B6/</system></li>
+		</random>
+	  </template>
+   </category>
+       <category>
+         <pattern>蜜雪冰城*</pattern>
+      <template>
+		<random>
+		<li>你爱我我爱你<system>start https://www.bilibili.com/video/BV1pb4y1Z7B6/</system></li>
+		<li>你爱我，我爱你，蜜雪冰城甜蜜蜜</li>
+		<li>I LOVE YOU YOU LOVE ME MIXUE ICECREAM AND TEA</li>
+		</random>
+	  </template>
+   </category>
+       <category>
+         <pattern>蜜雪冰城</pattern>
+      <template>
+		<random>
+		<li>你爱我，我爱你，蜜雪冰城甜蜜蜜</li>
+		<li>I LOVE YOU YOU LOVE ME MIXUE ICECREAM AND TEA</li>
+		<li>你爱我我爱你<system>start https://www.bilibili.com/video/BV1pb4y1Z7B6/</system></li>
+		</random>
+	  </template>
+   </category>
+       <category>
+         <pattern>什么是快乐星球</pattern>
+      <template>
+		<random>
+		<li>对啊什么是快乐星球</li>
+		<li>你告诉我什么是快乐星球</li>
+		</random>
+	  </template>
+   </category>
+          <category>
+         <pattern>*什么是快乐星球*</pattern>
+      <template>
+		<random>
+		<li>对啊什么是快乐星球</li>
+		<li>你告诉我什么是快乐星球</li>
+		</random>
+	  </template>
+   </category>
+          <category>
+         <pattern>*什么是快乐星球</pattern>
+      <template>
+		<random>
+		<li>对啊什么是快乐星球</li>
+		<li>你告诉我什么是快乐星球</li>
+		</random>
+	  </template>
+   </category>
+           <category>
+         <pattern>哎就是玩</pattern>
+      <template>
+		<random>
+		<li>WDNMD</li>
+		<li>滚犊子</li>
+		</random>
+	  </template>
+   </category>
+             <category>
+         <pattern>哎*就是玩</pattern>
+      <template>
+		<random>
+		<li>WDNMD</li>
+		<li>滚犊子</li>
+		</random>
+	  </template>
+   </category>
+</aiml>

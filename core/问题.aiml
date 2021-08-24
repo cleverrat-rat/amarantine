@@ -1,0 +1,29 @@
+<aiml version="1.0" encoding="UTF-8">
+<category>
+      <pattern>被骂*</pattern>
+      <template>
+	  <random>
+	  <li>阴阳人语录牢记于心：就这？就这水平？</li>
+	  <li>你要做的第一步，是跳出愤怒感，先去剖析骂你的人的行为，它的目的，对你的伤害，还有最重要的——逻辑漏洞。</li>
+	  </random>
+	  </template>  
+   </category>
+   <category>
+      <pattern>*考砸*</pattern>
+      <template>
+	  <random>
+	  <li>成绩已成过去，现在做的应该是努力学习</li>
+	  <li>没啥大不了的，下次努力就行</li>
+	  </random>
+	  </template>
+   </category> 
+   <category>
+      <pattern>*考试*考好*</pattern>
+      <template>
+	  <random>
+	  <li>成绩已成过去，现在做的应该是努力学习</li>
+	  <li>没啥大不了的，下次努力就行</li>
+	  </random>
+	  </template>
+   </category>   
+</aiml>

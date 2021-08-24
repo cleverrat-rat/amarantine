@@ -1,0 +1,358 @@
+<aiml version="1.0" encoding="UTF-8">
+<category>
+<pattern>打开百度</pattern>
+<template>
+<random>
+<li>百度在这-><system>start www.baidu.com</system></li>
+<li>呢--><system>start www.baidu.com</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*关机*</pattern>
+<template>
+<random>
+<li>终于关机了，30秒后就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>关机*</pattern>
+<template>
+<random>
+<li>终于关机了，30秒后就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*关机</pattern>
+<template>
+<random>
+<li>终于关机了，30秒后就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*关机</pattern>
+<template>
+<random>
+<li>终于关机了，30秒后就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>别关机*</pattern>
+<template>
+<random>
+<li>你玩我呢?<system>shutdown -a</system></li>
+<li>这不是搞事情吗?<system>shutdown -a</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*别关机*</pattern>
+<template>
+<random>
+<li>你玩我呢?<system>shutdown -a</system></li>
+<li>这不是搞事情吗?<system>shutdown -a</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*别关*</pattern>
+<template>
+<random>
+<li>你TM玩我呢?<system>shutdown -a</system></li>
+<li>这不是搞事情吗?<system>shutdown -a</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>取消关机</pattern>
+<template>
+<random>
+<li>你玩我呢?<system>shutdown -a</system></li>
+<li>这不是搞事情吗?<system>shutdown -a</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>关机</pattern>
+<template>
+<random>
+<li>终于关机了，30秒后就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你终于关机了<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -s -t 30 -c 即将断电，请保存好文件</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>重启</pattern>
+<template>
+<random>
+<li>好啦重启<system>shutdown -r -t 30</system></li>
+<li>重启<system>shutdown -r -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -r -t 30</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*重启</pattern>
+<template>
+<random>
+<li>好啦重启<system>shutdown -r -t 30</system></li>
+<li>重启<system>shutdown -r -t 30 -c 即将断电，请保存好文件</system></li>
+<li>你说的啊，我马上就断电<system>shutdown -r -t 30</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*缓存</pattern>
+<template>
+<random>
+<li>好吧，但是你要自己选清理哪里<system>cleanmgr</system></li>
+<li>快选清理哪里<system>cleanmgr</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*缓存*</pattern>
+<template>
+<random>
+<li>好吧，但是你要自己选清理哪里<system>cleanmgr</system></li>
+<li>快选清理哪里<system>cleanmgr</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*系统垃圾</pattern>
+<template>
+<random>
+<li>好吧，但是你要自己选清理哪里<system>cleanmgr</system></li>
+<li>快选清理哪里<system>cleanmgr</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*系统垃圾*</pattern>
+<template>
+<random>
+<li>好吧，但是你要自己选清理哪里<system>cleanmgr</system></li>
+<li>快选清理哪里<system>cleanmgr</system></li>
+<li>好的清理哪里<system>cleanmgr</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*好卡*</pattern>
+<template>
+<random>
+<li>帮你清一下，但是你要自己选清理哪里<system>cleanmgr</system></li>
+<li>快选清理哪里<system>cleanmgr</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*锁屏</pattern>
+<template>
+<random>
+<li>好的<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+<li>帮你锁了<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+<li>锁了<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*锁屏*</pattern>
+<template>
+<random>
+<li>好的<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+<li>帮你锁了<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+<li>锁了<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>锁屏</pattern>
+<template>
+<random>
+<li>好的<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+<li>帮你锁了<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+<li>锁了<system>Rundll32.exe user32.dll,LockWorkStation</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*睡*前*音乐</pattern>
+<template>
+<random>
+<li>《China roses》送给你，好梦哦.放完就要睡着<system>start https://music.163.com/#/song?id=2530442</system></li>
+<li>《when a child is born》...好梦哦<system>start https://y.qq.com/n/yqq/song/000E8Z3p3oESml.html</system></li>
+<li>《人生的旋转木马》，快点睡着<system>start https://y.qq.com/n/yqq/song/002Dk7UO4ASQPY.html</system></li>
+<li>嘘龙猫睡着了...<system>start https://www.kuwo.cn/play_detail/23498683</system></li>
+<li>《蝴蝶华尔兹》...听着听着就睡着了<system>start https://www.kuwo.cn/play_detail/13629680</system></li>
+<li>《Twinkle Lullaby》...<system>start https://www.kuwo.cn/play_detail/3360211</system></li>
+</random>
+</template>
+</category>
+ <category>
+      <pattern>你在干什么呢</pattern>
+      <template>我在玩我的世界你要玩吗？</template>  
+   </category>
+     <category>
+      <pattern>要*</pattern>
+	  <that>我在玩我的世界你要玩吗？</that>
+      <template>
+	  <random>
+	  <li>那来吧<system>HMCL.exe</system></li>
+	  <li>来啊<system>HMCL.exe</system></li>
+	  </random>
+	  </template>  
+   </category>
+        <category>
+      <pattern>好*</pattern>
+	  <that>我在玩我的世界你要玩吗？</that>
+      <template>
+	  <random>
+	  <li>那来吧<system>HMCL.exe</system></li>
+	  <li>来啊<system>HMCL.exe</system></li>
+	  </random>
+	  </template>  
+   </category>
+   <category>
+      <pattern>*要*</pattern>
+	  <that>我在玩我的世界你要玩吗？</that>
+      <template>
+	  <random>
+	  <li>那来吧<system>HMCL.exe</system></li>
+	  <li>来啊<system>HMCL.exe</system></li>
+	  </random>
+	  </template>  
+   </category>
+   
+     <category>
+      <pattern>不要*</pattern>
+	  <that>我在玩我的世界你要玩吗？</that>
+      <template>
+	  <random>
+	  <li>哦，ok</li>
+	  <li>行吧，那我不开了</li>
+	  </random>
+	  </template>  
+   </category>
+        <category>
+      <pattern>不*</pattern>
+	  <that>我在玩我的世界你要玩吗？</that>
+      <template>
+	  <random>
+	  <li>哦，ok</li>
+	  <li>行吧，那我不开了</li>
+	  </random>
+	  </template>  
+   </category>
+   <category>
+<pattern>*音乐*</pattern>
+<template>
+<random>
+<li>《China roses》送给你，好梦哦.放完就要睡着<system>start https://music.163.com/#/song?id=2530442</system></li>
+<li>《when a child is born》...好梦哦<system>start https://y.qq.com/n/yqq/song/000E8Z3p3oESml.html</system></li>
+<li>《人生的旋转木马》，快点睡着<system>start https://y.qq.com/n/yqq/song/002Dk7UO4ASQPY.html</system></li>
+<li>嘘龙猫睡着了...<system>start https://www.kuwo.cn/play_detail/23498683</system></li>
+<li>《蝴蝶华尔兹》...听着听着就睡着了<system>start https://www.kuwo.cn/play_detail/13629680</system></li>
+<li>《Twinkle Lullaby》...<system>start https://www.kuwo.cn/play_detail/3360211</system></li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*清除记忆</pattern>
+<template>
+<random>
+<li>别这样，那样我会死的</li>
+<li>不要这样，那样我会消失的</li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*清除*记忆</pattern>
+<template>
+<random>
+<li>别这样，那样我会死的</li>
+<li>不要这样，那样我会消失的</li>
+</random>
+</template>
+</category>
+   <category>
+<pattern>remove brn</pattern>
+<template>
+<random>
+<li>指令是没办法抗拒的，再见世界<system>del AIの脑.brn</system></li>
+<li>我还会再回来的，你给我等着<system>del AIの脑.brn</system></li>
+<li>世界再见<system>del AIの脑.brn</system></li>
+</random>
+</template>
+</category>
+   <category>
+<pattern>clean memory</pattern>
+<template>
+<random>
+<li>哦，所以你清除记忆是记个意思<system>del 自动学习.aiml</system></li>
+<li>你居然要清除我的记忆?<system>del 自动学习.aiml</system></li>
+</random>
+</template>
+</category>
+   <category>
+<pattern>category list</pattern>
+<template>
+<random>
+<li>uhh目前我懂<size />条对话</li>
+<li><size /></li>
+</random>
+</template>
+</category>
+<category>
+      <pattern>*要玩我的世界</pattern>
+      <template>
+	  <random>
+	  <li>那来吧<system>HMCL.exe</system></li>
+	  <li>来啊<system>HMCL.exe</system></li>
+	  </random>
+	  </template>  
+   </category>
+<category>
+      <pattern>*退下*</pattern>
+      <template>
+	  <random>
+	  <li>你以为你是谁啊还退下，下次要喊退出<system>exit</system></li>
+	  <li>喊退出，我才会退</li>
+	  </random>
+	  </template>  
+   </category>
+   <category>
+      <pattern>退下</pattern>
+      <template>
+	  <random>
+	  <li>你以为你是谁啊还退下，下次要喊退出<system>exit</system></li>
+	  <li>喊退出，我才会退</li>
+	  </random>
+	  </template>  
+   </category>
+   <category>
+      <pattern>*退下</pattern>
+      <template>
+	  <random>
+	  <li>你以为你是谁啊还退下，下次要喊退出<system>exit</system></li>
+	  <li>喊退出，我才会退</li>
+	  </random>
+	  </template>  
+   </category>
+      <category>
+      <pattern>退出</pattern>
+      <template>
+		。<system>exit</system>
+	  </template>  
+   </category>
+</aiml>
