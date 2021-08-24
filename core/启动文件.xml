@@ -1,8 +1,0 @@
-<aiml version="1.0">
-<category>
-<pattern>LOAD CL</pattern>
-<template>
-<learn>*.aiml</learn>
-</template>
-</category>
-</aiml>
